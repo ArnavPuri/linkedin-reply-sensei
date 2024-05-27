@@ -1,6 +1,4 @@
-chrome.runtime.onInstalled.addListener(() => {
-    console.log("Extension Installed");
-});
+import { CONFIG } from './config.js';
 
 function getOpenAIRequestJSON(postText) {
     return {
@@ -40,7 +38,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ${CONFIG.OPENAI_API_KEY}'
+                'Authorization': `Bearer ${CONFIG.OPENAI_API_KEY}`
             },
             body: JSON.stringify(getOpenAIRequestJSON(request.postText))
         })

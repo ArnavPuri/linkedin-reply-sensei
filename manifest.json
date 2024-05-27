@@ -8,7 +8,8 @@
       "scripting"
     ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "background.js",
+      "type": "module"
     },
     "content_scripts": [
       {
@@ -19,10 +20,15 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "images/logo.png",
-        "48": "images/logo.png",
-        "128": "images/logo.png"
+        "16": "images/logo16.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
       }
+    },
+    "icons": {
+      "16": "images/logo16.png",
+      "48": "images/logo48.png",
+      "128": "images/logo128.png"
     }
   }
   

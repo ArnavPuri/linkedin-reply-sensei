@@ -1,6 +1,6 @@
 # LinkedIn Reply Suggester
 
-![LinkedIn Reply Suggester Logo](logo.png)
+![LinkedIn Reply Suggester Logo](images/logo128.png)
 
 LinkedIn Reply Suggester is a Chrome extension that suggests replies for LinkedIn posts using the ChatGPT API. This extension adds a "Suggest Reply" button to each LinkedIn post's reply input field, allowing users to generate a suggested reply with a single click.
 
@@ -11,7 +11,7 @@ LinkedIn Reply Suggester is a Chrome extension that suggests replies for LinkedI
 - Easy to configure with your own OpenAI API key
 - Change the system prompt to match your own style
 
-![](demo.mov)
+![](images/demo.mov)
 
 ## Installation
 
