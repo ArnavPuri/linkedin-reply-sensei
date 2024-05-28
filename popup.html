@@ -1,26 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>LinkedIn Reply Suggester</title>
-  <style>
-    body {
-      width: 300px;
-      padding: 10px;
-    }
-    button {
-      width: 100%;
-      padding: 10px;
-      background-color: #0073b1;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <h1>LinkedIn Reply Suggester</h1>
-  <p>
-    Click on Comment on any post and you will notice a Suggest Reply button, click on it to instantly get suggestion.
-  </p>
-</body>
+  <head>
+    <title>LinkedIn Reply Suggester</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .hidden {
+        display: none;
+      }
+      body {
+        width: 400px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      p {
+        font-size: 14px;
+        color: #303030;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0073b1;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      input {
+        display: block;
+        margin: 12px 0;
+        font-size: 14px;
+        padding: 4px 8px;
+        width: 100%;
+      }
+      .ideas-container {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: #111111;
+        gap: 6px;
+        margin: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: #0173b1">LinkedIn Reply Suggester</h1>
+    <p>
+      Click on Comment on any post and you will notice a "🪄 Reply" button,
+      click on it to instantly get suggestion.
+    </p>
+    <div id="onboarding">
+      <h2>Setup API Key</h2>
+
+      <input type="text" id="apiKey" placeholder="sk-default-xx09871241423" />
+      <button id="saveButton">Save API Key</button>
+      <script src="popup.js"></script>
+    </div>
+    <div id="main" class="hidden">
+      <h2>LinkedIn Post Ideas</h2>
+      <div class="ideas-container"></div>
+      <button id="getIdeasButton">Get Ideas</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
 </html>

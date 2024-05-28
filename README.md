@@ -42,5 +42,7 @@ const CONFIG = {
 3. Click the "Suggest Reply" button to generate a suggested reply using the OpenAI API.
 4. The suggested reply will be automatically inserted into the reply input field. Modify it and make it your own
 
-
+## TODOs
+- [] Handle the quote shared posts
+- [] 
 Enjoy using LinkedIn Reply Suggester!

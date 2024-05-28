@@ -5,7 +5,8 @@
     "description": "Suggests replies for LinkedIn posts using ChatGPT API",
     "permissions": [
       "activeTab",
-      "scripting"
+      "scripting",
+      "storage"
     ],
     "background": {
       "service_worker": "background.js",
