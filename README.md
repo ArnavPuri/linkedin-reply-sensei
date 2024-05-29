@@ -22,15 +22,7 @@ git clone https://github.com/ArnavPuri/linkedin-reply-suggester.git
 cd linkedin-reply-suggester
 ```
 
-2. Create a config.js file in the extension directory with your OpenAI API key.
-```js
-// config.js
-const CONFIG = {
-  OPENAI_API_KEY: 'YOUR_OPENAI_API_KEY'
-};
-```
-
-3. Load the extension in Chrome:
+2. Load the extension in Chrome:
 
 - Open Chrome and go to `chrome://extensions/`
 - Enable "Developer mode" using the toggle in the top right corner
@@ -44,5 +36,6 @@ const CONFIG = {
 
 ## TODOs
 - [] Handle the quote shared posts
-- [] 
+- [] Update system prompts
+
 Enjoy using LinkedIn Reply Suggester!
