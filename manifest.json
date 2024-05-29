@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "LinkedIn Reply Suggester",
+    "name": "LinkedIn ReplySensei",
     "version": "1.0",
     "description": "Suggests replies for LinkedIn posts using ChatGPT API",
     "permissions": [
