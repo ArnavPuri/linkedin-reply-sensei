@@ -1,4 +1,4 @@
-# LinkedIn Reply Suggester
+# LinkedIn Reply Sensei
 
 ![LinkedIn Reply Suggester Logo](images/logo128.png)
 
