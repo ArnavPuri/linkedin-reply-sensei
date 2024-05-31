@@ -4,8 +4,6 @@
     "version": "1.0",
     "description": "Suggests replies for LinkedIn posts using ChatGPT API",
     "permissions": [
-      "activeTab",
-      "scripting",
       "storage"
     ],
     "background": {

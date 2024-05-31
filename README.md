@@ -11,8 +11,6 @@ LinkedIn Reply Suggester is a Chrome extension that suggests replies for LinkedI
 - Easy to configure with your own OpenAI API key
 - Change the system prompt to match your own style
 
-![](images/demo.mov)
-
 ## Installation
 
 1. Clone this repository to your local machine.
@@ -36,6 +34,6 @@ cd linkedin-reply-suggester
 
 ## TODOs
 - [] Handle the quote shared posts
-- [] Update system prompts
+- [x] ~~Update system prompts~~
 
 Enjoy using LinkedIn Reply Suggester!
